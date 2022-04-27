@@ -64,7 +64,7 @@ This command will create a `package.json` file in your project to manage your de
 
 - Goal: We want to seperate our concerns and keep our objects and methods seperate from the test itself.
 
-- Why?  This makes our test modular and reusable.  Imagine if you were testing a whole suite of feautures, with multiple login components. By seperating our concerns we can run multiple login tests and only change a few lines of code. This also makes the test more maintainable if a feature were to change in an update.
+- Why?  This makes our test modular and reusable.  Imagine if you were testing a whole suite of features, with multiple login components. By seperating our concerns we can run multiple login tests and only change a few lines of code. This also makes the test more maintainable if a feature were to change in an update.
 
 - Create a folder to hold your JavaScript Class for the login page, then create a file in that folder for that class.
 I made a `pages` folder and a `login-page.js` file.
